@@ -9,8 +9,8 @@
       body {
         font-family: Helvetica;
         text-align: center;
-        background: #121212;
-        padding: 2em;
+        background: #0A0A0A;
+        padding: 64px;
         color: #FFFFFF;
       }
 
@@ -21,32 +21,43 @@
       h5 {
         color: #AAAAAA;
         margin-top: 0;
+        font-weight: normal;
       }
       
       .link {
-        margin: 1em auto;
-        padding: 1em;
-        background: #1f1f1f;
+        border: 2px solid #333333;
+        margin: 16px auto;
+        padding: 16px;
         border-radius: 8px;
-        max-width: 400px;
+
+        max-width: 512px;
         text-decoration: none;
         color: #e0e0e0;
         display: block;
-        /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
-        transition: background-color 0.2s;
+        transition: border-color 0.2s;
+        font-size: 18px;
         &:hover {
-          background-color: #333333;
+          border-color: #e0e0e0;
         }
       }
+
+      .icon {
+        height: 64px;
+        width: 64px;
+        position: fixed;
+        right: 8px;
+        bottom: 8px;
+      }
     </style>
-    </head>
-    
-    <body>
+  </head>
+  
+  <body>
     <h1>Clarkee</h1>
     <h5>NC based MTG enthusiast and alterist</h5>
     <a class="link" href="https://www.instagram.com/clarkee_alters/" target="_blank">Instagram</a>
     <a class="link" href="https://www.whatnot.com/user/clarkee/" target="_blank">Whatnot</a>
     <a class="link" href="https://moxfield.com/users/clarkee/" target="_blank">Moxfield</a>
     <a class="link" href="https://deckbox.org/users/clarkee/" target="_blank">Deckbox</a>
-    </body>
+    <img src="icon-light.svg" class="icon">
+  </body>
 </html>
