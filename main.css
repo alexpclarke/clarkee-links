@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+  background: #0A0A0A;
+  padding: 64px;
+  color: #FFFFFF;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h5 {
+  color: #AAAAAA;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.link {
+  border: 2px solid #333333;
+  margin: 16px auto;
+  padding: 16px;
+  border-radius: 8px;
+
+  max-width: 512px;
+  text-decoration: none;
+  color: #e0e0e0;
+  display: block;
+  transition: border-color 0.2s;
+  font-size: 18px;
+  &:hover {
+    border-color: #e0e0e0;
+  }
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
